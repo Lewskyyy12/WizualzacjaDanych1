@@ -1,4 +1,4 @@
-# import sys
+import sys
 # print("Wizualizacja Dancyh")
 #
 # a=56
@@ -78,17 +78,93 @@
 # #lista.sort()
 # #print(lista)
 
-print('Slonwik')
+# print('Slonwik')
+#
+# slownik = {'klucz': 'wartosc', 1:2, 'a': 5, 4: 'b'}
+# print(slownik)
+# print(slownik[4])
+# slownik[6]= 45
+# print(slownik)
+# slownik.pop(1)
+# print(slownik)
+# print(slownik.keys())
+# print(slownik.values())
+# del slownik[6]
+# print(slownik)
 
-slownik = {'klucz': 'wartosc', 1:2, 'a': 5, 4: 'b'}
-print(slownik)
-print(slownik[4])
-slownik[6]= 45
-print(slownik)
-slownik.pop(1)
-print(slownik)
-print(slownik.keys())
-print(slownik.values())
-del slownik[6]
-print(slownik)
+# a = 8
+# b = 8
+#
+# if a > b:
+#     print("a is greater than b")
+# elif a < b:
+#     print("b is greater than a")
+# else:
+#     print('a is equal to b')
+#
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# d = int(input())
+#
+# if(a > b) & (c > d):
+#     print(a,c)
+# else:
+#     print(b,d)
+#
+# if(a > b) | (c > d):
+#     print(a,c)
+# else:
+#     print(b,d)
+
+# for i in range(1,8,2):
+#     print(i)
+# else:
+#     print('koniec petli')
+
+#
+# lista = [5, 6.6 ,34, 'a', 'b', [2,3,4], 'ab']
+# for i in lista:
+#     print(i)
+#
+
+# for i in range(0,5):
+#     for j in range(0,5):
+#         result =i+j
+#         print(result)
+#     print('')
+
+# licznik = 0
+# lista = [5, 6.6, 34 , 'a', 'b', [2, 3, 4], 'ab']
+# while licznik < len(lista):
+#     print(lista[licznik])
+#     licznik+= 1
+# else:
+#     print('Koniec Petli')
+#
+# licznik=0
+# while licznik != 10:
+#     if licznik == 7:
+#         print(licznik)
+#         break
+#     else:
+#         licznik += 1
+# else:
+#     print('licznik')
+
+
+# wartosc wczytana - element z listy da 0
+
+# licznik = 0
+# lista2 = [1, 2, 3, 4, 5, 6, 7, 5, 3, 1, 20]
+# a = int(sys.stdin.readline())
+# while licznik < len(lista2):
+#     if lista2[licznik] - a == 0:
+#         print("daje 0")
+#         break
+#     else:
+#         licznik += 1
+# else:
+#     print('nie ma')
+
 
